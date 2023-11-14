@@ -62,7 +62,7 @@ a {
 
 .main-header-link:hover {
     color: var(--main-color);
-    cursor: pointer; /* TODO: OK ? */
+    cursor: pointer; /* Ai-je le droit ??? */
 }
 
 .main-header-link:hover::before {
@@ -79,6 +79,141 @@ a {
     background-color: var(--main-color);
     opacity: 0;
 }
+
+/****** Search section ***********/
+.search-section {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 30px 0 30px 0; /* ou margin ou rien ??? */
+}
+
+.search-section-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+h1 {
+    font-size: 1.375em;
+    font-weight: 700;
+    margin: 0;
+}
+
+.search-section-slogan {
+    margin: 0;
+    font-size: 1em;
+    font-weight: normal;;
+}
+
+/****** Search form ***********/
+.search-bar-form {
+    display: flex;
+    /* gap: 24px; */
+}
+.search-bar-form-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 49px;
+    border: solid 1px var(--main-bg-color);
+    border-radius: 15px 0 0 15px;
+    background-color: var(--main-bg-color);
+}
+
+.search-bar-form-input-text {
+    width: 147px;
+    color: black;
+    border: solid 1px var(--main-bg-color);
+    padding: 0 24px 0 24px;
+}
+
+.search-bar-form-input-text::placeholder {
+    color: black;
+}
+
+.search-bar-form-input-text, .search-bar-form-input-submit {
+    font-size: 1.125em;
+    font-weight: 700;
+}
+
+.search-bar-form-input-submit {
+    color: white;
+    border: solid 1px var(--main-color);
+    border-radius: 0 15px 15px 0;
+    padding: 0 12px 0 12px;
+    background-color: var(--main-color);
+}
+
+/****** filters bar ***********/
+.filters-bar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.search-bar-filters-title{
+    margin: 0;
+}
+
+.filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.063em;
+    font-weight: 700;
+    height: 50px;
+    border: solid 1px var(--main-bg-color);
+    border-radius: 25px;
+    padding: 4px 19px 4px 19px;
+    background-color: white;
+}
+
+.filter:hover {
+    background-color: var(--filter-bg-color);
+}
+
+.filter-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-icon {
+    width: 22px;
+    height: 22px;
+}
+
+.filter-txt {
+    margin: 0;
+}
+
+/****** Info bar ***********/
+.info-bar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.info-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.info-txt {
+    font-size: 1em;
+}
+
 
 
 .section-title {
