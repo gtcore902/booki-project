@@ -218,14 +218,17 @@ h1 {
 .hebergements-cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
     justify-content: space-between;
-    flex-wrap: wrap;
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
     gap: 30px;
     margin-top: 33px;
 }
 
 .hebergements-cards a {
     display: block;
+    /* flex-direction: column; */
     /* width: 30%; */
 }
 
