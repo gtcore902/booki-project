@@ -112,6 +112,7 @@ h1 {
     display: flex;
     height: 50px;
 }
+
 .search-bar-form-label {
     display: flex;
     justify-content: center;
@@ -172,6 +173,7 @@ h1 {
     font-size: 1.125em;
     margin: 0;
 }
+
 .button-container {
     display: flex;
     gap: 15px;
@@ -239,6 +241,7 @@ h1 {
     flex-direction: column;
     width: 100%;
 }
+
 .hebergements-cards img{
     width: 100%;
     height: 114px; /* 124px ?*/
@@ -425,6 +428,7 @@ h1 {
     font-size: 1.125em;
     margin: 0;
 }
+
 .infos-list-detail {
     list-style-type: none;
     margin: 0;
@@ -452,6 +456,7 @@ h1 {
         flex-direction: column;
         align-items: flex-start;
     }
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -488,6 +493,7 @@ h1 {
     .show-more {
         margin-top: 15px;
     }
+
     .card-image {
         max-height: 200px;
     }
@@ -495,6 +501,7 @@ h1 {
     .activities-card .card {
         min-height: auto;
     }
+
     .activities-card img {
         min-height: 200px;
     }
@@ -510,6 +517,7 @@ h1 {
     .main-container {
         padding: 0;
     }
+
     .main-header {
         flex-direction: column;
     }
@@ -555,6 +563,7 @@ h1 {
     .search-bar-form {
         position: relative; /* set button overlay */
     }
+
     .search-bar-form-submit {
         position: absolute; /* set button overlay */
         top: 0; /* set button overlay */
@@ -616,6 +625,7 @@ h1 {
         margin-top: 0;
         margin-bottom: 15px;
     }
+
     .populaires-cards {
         flex-direction: column;
     }
