@@ -557,7 +557,7 @@ h1 {
 
     .search-bar-form-input-text {
         flex: 1;
-        border-radius: 15px; /* set button overlay */
+        border-radius: 0 15px 15px 0; /* set button overlay */
     }
 
     .search-bar-form {
@@ -577,7 +577,7 @@ h1 {
     }
 
     .fa-magnifying-glass {
-        display: flex;
+        display: block;
     }
 
     .button-container {
@@ -670,8 +670,8 @@ h1 {
 }
 
 /* Add rule for "images/activites/paul-hermann.jpg" with 356px width ??? */
-@media (min-width: 410px) and (max-width: 768px) {
+/* @media (min-width: 410px) and (max-width: 768px) {
     .activities-cards {
         grid-template-columns: 1fr 1fr;
     }
-}
+} */
