@@ -222,9 +222,6 @@ h1 {
 }
 
 .hebergements-cards {
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -246,7 +243,7 @@ h1 {
 
 .hebergements-cards img{
     width: 100%;
-    height: 114px; /* 124px ?*/
+    height: 114px;
     border-radius: 20px 20px 0 0;
 }
 
@@ -269,7 +266,7 @@ h1 {
 }
 
 .card-subtitle {
-    font-size: 0.875em; /* A voir : modifie aussi dans populaire comme sur la maquette */
+    font-size: 0.875em; 
 }
 
 .section-title {
@@ -364,10 +361,10 @@ h1 {
 }
 
 .show-more {
+    display: block;
     font-size: 1.125em;
     font-weight: 700;
-    margin: 30px 0 0 0;
-    cursor: pointer;
+    margin-top: 30px;
 }
 
 /****** Activities section ***********/
@@ -418,6 +415,7 @@ h1 {
 /****** Footer ***********/
 .infos {
     display: grid;
+    margin-top: 35px;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: var(--main-bg-color);
 }
@@ -483,12 +481,10 @@ h1 {
     }
 
     .populaires-cards .card-title {
-        /* font-size: 14px; */
         font-size: 1em;
     }
 
     .populaires-cards .card-subtitle {
-        /* font-size: 13px; */
         font-size: 0.875em;
     }
 
@@ -559,18 +555,18 @@ h1 {
 
     .search-bar-form-input-text {
         flex: 1;
-        border-radius: 0 15px 15px 0; /* set button overlay */
+        border-radius: 0 15px 15px 0; 
     }
 
     .search-bar-form {
-        position: relative; /* set button overlay */
+        position: relative; 
     }
 
     .search-bar-form-submit {
-        position: absolute; /* set button overlay */
-        top: 0; /* set button overlay */
-        right: 0; /* set button overlay */
-        bottom: 0; /* set button overlay */
+        position: absolute; 
+        top: 0; 
+        right: 0; 
+        bottom: 0; 
         border-radius: 15px;
     }
 
