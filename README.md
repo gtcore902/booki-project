@@ -1,5 +1,4 @@
 # Project 2 : booki-project
----
 
 ## About this project
 This project is part of the OpenClassrooms web developer path :rocket:. It represents the first step in learning web development languages :mortar_board:. The project involves creating a pre-coded web page to enable a company to showcase accommodations and services in a defined city.
