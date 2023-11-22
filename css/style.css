@@ -63,7 +63,6 @@ a {
 
 .main-header-link:hover {
     color: var(--main-color);
-    /* cursor: pointer; */
 }
 
 .main-header-link:hover::before {
